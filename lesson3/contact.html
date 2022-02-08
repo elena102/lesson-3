@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+
+<body>
+    <p id="message" >Пожалуйста, заполните все поля формы!</p> 
+    
+E-mail: <input id="email" name="email" type="text" size="20" /><br /> 
+Телефон: <input id="phone" name="phone" type="text" size="20" /><br /> 
+<textarea id="field" name="field" type="text" size="20" placeholder="Ваши пожелания, минимум 10 символов"></textarea>
+<input name="button" type="submit" value="Проверить" onClick="ValidMail(); ValidPhone();ValidTextarea();" />
+
+ 
+    <script src="contact.js"></script>
+</body>
+</html>
